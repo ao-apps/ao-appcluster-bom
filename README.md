@@ -29,7 +29,7 @@ Bill of Materials (BOM) for application-level clustering tools.
 * [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.aoindustries%22%20AND%20a:%22ao-appcluster-bom%22)
 * [GitHub](https://github.com/aoindustries/ao-appcluster-bom)
 
-## Modules Included
+## Managed Dependencies
 * [AO AppCluster Core](https://github.com/aoindustries/ao-appcluster-core)
 * [AO AppCluster Csync2](https://github.com/aoindustries/ao-appcluster-csync2)
 * [AO AppCluster DNS Only](https://github.com/aoindustries/ao-appcluster-dnsonly)

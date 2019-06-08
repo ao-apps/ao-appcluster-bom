@@ -34,6 +34,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2019-06-07T15:52:55-0500"
+		dateModified="2019-06-07T16:18:30-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<header>
@@ -58,7 +59,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:nav>
-		<section:section label="Modules Included">
+		<section:section label="Managed Dependencies">
 			<ul>
 				<li><core:link book="/ao-appcluster/core" page="/index.jspx" /></li>
 				<li><core:link book="/ao-appcluster/csync2" page="/index.jspx" /></li>
