@@ -27,6 +27,7 @@ Bill of Materials (BOM) for application-level clustering tools.
 * [GitHub](https://github.com/aoindustries/ao-appcluster-bom)
 
 ## Managed Dependencies
+* [AO AppCluster All](https://github.com/aoindustries/ao-appcluster-all)
 * [AO AppCluster Core](https://github.com/aoindustries/ao-appcluster-core)
 * [AO AppCluster Csync2](https://github.com/aoindustries/ao-appcluster-csync2)
 * [AO AppCluster DNS Only](https://github.com/aoindustries/ao-appcluster-dnsonly)
