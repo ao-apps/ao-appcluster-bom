@@ -29,7 +29,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-bom</artifactId><version>1.1.3-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>ao-appcluster-bom</artifactId><version>1.1.3</version>
 	<packaging>pom</packaging>
 
 	<name>AO AppCluster BOM</name>
@@ -42,7 +42,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/ao-appcluster-bom.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/ao-appcluster-bom.git</developerConnection>
 		<url>https://github.com/aoindustries/ao-appcluster-bom</url>
-		<tag>HEAD</tag>
+		<tag>ao-appcluster-bom-1.1.3</tag>
 	</scm>
 
 	<issueManagement>
