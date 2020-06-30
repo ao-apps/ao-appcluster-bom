@@ -37,7 +37,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-07T15:51:32-0500"
-		dateModified="2020-03-28T02:45:04-05:00"
+		dateModified="2020-06-29T20:15:43-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.aoindustries:ao-appcluster-bom:pom.version}" />
@@ -52,7 +52,11 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated dependencies.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
