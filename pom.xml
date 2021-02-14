@@ -138,7 +138,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>dnsjava</groupId><artifactId>dnsjava</artifactId><version>3.3.1</version>
 			</dependency>
 			<dependency>
-				<groupId>junit</groupId><artifactId>junit</artifactId><version>4.13.1</version>
+				<groupId>junit</groupId><artifactId>junit</artifactId><version>4.13.2</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
