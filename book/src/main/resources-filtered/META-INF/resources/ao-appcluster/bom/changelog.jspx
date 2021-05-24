@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-appcluster-bom - Bill of Materials (BOM) for application-level clustering tools.
-Copyright (C) 2019, 2020  AO Industries, Inc.
+Copyright (C) 2019, 2020, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,7 +36,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name} Changelog"
 		shortTitle="Changelog"
 		tocLevels="1"
-		datePublished="2019-06-07T15:51:32-0500"
+		datePublished="2019-06-07T15:51:32-05:00"
 		dateModified="2020-06-29T20:15:43-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
@@ -73,7 +73,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{documented.name}"
 			version="1.1.2"
-			datePublished="2019-10-05T07:14:08-0500"
+			datePublished="2019-10-05T07:14:08-05:00"
 			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
@@ -88,7 +88,7 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 		<changelog:release
 			projectName="@{documented.name}"
 			version="1.1.1"
-			datePublished="2019-06-20T22:38:35-0500"
+			datePublished="2019-06-20T22:38:35-05:00"
 			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
 			scmUrl="@{project.scm.url}"
