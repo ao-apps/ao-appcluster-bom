@@ -150,6 +150,10 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- Reported by versions:display-dependency-updates -->
+			<dependency>
+				<groupId>org.slf4j</groupId><artifactId>slf4j-api</artifactId><version>1.7.32</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
