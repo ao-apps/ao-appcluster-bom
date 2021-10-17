@@ -152,10 +152,19 @@ along with ao-appcluster-bom.  If not, see <http://www.gnu.org/licenses />.
 			</dependency>
 			<!-- Reported by versions:display-dependency-updates -->
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.1.1${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-concurrent</artifactId><version>4.0.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoapps</groupId><artifactId>ao-encoding</artifactId><version>6.0.0${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>5.0.1${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.1.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>dnsjava</groupId><artifactId>dnsjava</artifactId><version>3.4.2</version>
