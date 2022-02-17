@@ -29,7 +29,7 @@ along with ao-appcluster-bom.  If not, see <https://www.gnu.org/licenses/>.
 		<relativePath>../../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoapps</groupId><artifactId>ao-appcluster-bom-book</artifactId><version>2.0.1-SNAPSHOT</version>
+	<groupId>com.aoapps</groupId><artifactId>ao-appcluster-bom-book</artifactId><version>2.0.1</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -74,7 +74,7 @@ along with ao-appcluster-bom.  If not, see <https://www.gnu.org/licenses/>.
 		<connection>scm:git:git://github.com/ao-apps/ao-appcluster-bom.git</connection>
 		<developerConnection>scm:git:git@github.com:ao-apps/ao-appcluster-bom.git</developerConnection>
 		<url>https://github.com/ao-apps/ao-appcluster-bom</url>
-		<tag>HEAD</tag>
+		<tag>ao-appcluster-bom-book-2.0.1</tag>
 	</scm>
 
 	<issueManagement>
