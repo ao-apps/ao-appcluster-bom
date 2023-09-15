@@ -108,47 +108,48 @@ along with ao-appcluster-bom.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.aoapps</groupId><artifactId>ao-appcluster-all</artifactId><version>2.0.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-all</artifactId><version>2.0.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-appcluster-core</artifactId><version>2.0.1${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-core</artifactId><version>2.0.1${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-appcluster-csync2</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-csync2</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
-        <type>pom</type>
-        <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-appcluster-imap</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-imap</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+      </dependency>
+      <!-- Imports -->
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-all</artifactId><version>2.0.1-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-core</artifactId><version>2.0.1-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-csync2</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-imap</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.aoapps</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>2.0.0-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -191,4 +192,38 @@ along with ao-appcluster-bom.  If not, see <https://www.gnu.org/licenses/>.
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <dependencies>
+    <!-- Imports (Reactor build order only) -->
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-appcluster-all</artifactId><version>2.0.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-appcluster-core</artifactId><version>2.0.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-appcluster-csync2</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-appcluster-dnsonly</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-appcluster-imap</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>ao-appcluster-jdbc</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
+    </dependency>
+  </dependencies>
 </project>
