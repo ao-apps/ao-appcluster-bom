@@ -19,7 +19,7 @@ Bill of Materials (BOM) for application-level clustering tools.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/appcluster/bom/)
 * [Changelog](https://oss.aoapps.com/appcluster/bom/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-appcluster-bom)
+* [Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-appcluster-bom)
 * [GitHub](https://github.com/ao-apps/ao-appcluster-bom)
 
 ## Managed Dependencies
